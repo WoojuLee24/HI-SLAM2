@@ -1,0 +1,59 @@
+#git+https://github.com/eriksandstroem/evaluate_3d_reconstruction_lib.git
+#torch-scatter -f https://data.pyg.org/whl/torch-2.1.2+cu118.html
+#thirdparty/simple-knn
+#thirdparty/diff-gaussian-rasterization
+#numpy
+#setuptools
+#wheel
+#torchmetrics
+#pyrender
+#imgviz
+#timm
+#open3d
+#evo
+#munch
+#plyfile
+#rich
+#glfw
+#glm
+
+
+# Core Dependencies
+#torch==2.1.2 --index-url https://download.pytorch.org/whl/cu118
+#torchvision
+torchaudio
+torchmetrics
+
+# Data Processing & Math
+numpy==1.26.4
+scipy
+opencv-python
+open3d
+plyfile
+munch
+
+# Training & Logging
+lightning
+tqdm
+rich
+pyyaml
+
+# Visualization & Rendering
+matplotlib
+pyrender
+imgviz
+glfw
+glm
+
+# Specialized Tools
+evo
+setuptools==69.5.1
+wheel
+
+# PyTorch Geometric Support
+torch-scatter -f https://data.pyg.org/whl/torch-2.1.2+cu118.html
+
+# Git & Local Dependencies
+git+https://github.com/eriksandstroem/evaluate_3d_reconstruction_lib.git
+./thirdparty/simple-knn
+./thirdparty/diff-gaussian-rasterization
